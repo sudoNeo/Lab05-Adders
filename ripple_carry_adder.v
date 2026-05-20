@@ -1,7 +1,7 @@
 //=========================================================================
 // Name & Email must be EXACTLY as in Gradescope roster!
-// Name: 
-// Email: 
+// Name: Marlon Lopez 
+// Email: mlope589@ucr.edu
 // 
 // Assignment name: 
 // Lab section: 
@@ -24,8 +24,25 @@ module ripple_carry_adder # ( parameter NUMBITS = 16 ) (
     output reg [NUMBITS-1:0] result,  
     output reg carryout); 
 
-    // ------------------------------
-    // Insert your solution below
-    // ------------------------------ 
+wire [NUMBITS:0] carry;
+    wire [NUMBITS-1:0] sum_w;
+    assign carry[0] = carryin;
+    genvar i;
+    generate
+        for (i = 0; i < NUMBITS; i = i + 1) begin
+            full_adder fa (
+                .a (A[i]),
+                .b (B[i]),
+                .c_in (carry[i]),
+                .s (sum_w[i]),
+                .c_out(carry[i+1])
+            );
+        end
+    endgenerate
+
+    always @(*) begin
+        result = sum_w;
+        carryout = carry[NUMBITS];
+    end
 
 endmodule
