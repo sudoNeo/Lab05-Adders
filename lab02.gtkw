@@ -1,0 +1,45 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu Jan 19 19:49:44 2023
+[*]
+[dumpfile] "/home/allan/cs161L/Github-Labs/Lab02-RippleCarryAdder/lab02.vcd"
+[dumpfile_mtime] "Thu Jan 19 04:45:18 2023"
+[dumpfile_size] 49730
+[savefile] "/home/allan/cs161L/Github-Labs/Lab02-RippleCarryAdder/lab02.gtkw"
+[timestart] 0
+[size] 2789 910
+[pos] -1 -1
+*-16.339516 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] ripple_carry_adder_tb.
+[treeopen] ripple_carry_adder_tb.uut.
+[treeopen] ripple_carry_adder_tb.uut.genblk1[0].
+[treeopen] ripple_carry_adder_tb.uut.genblk1[1].
+[treeopen] ripple_carry_adder_tb.uut.genblk1[2].
+[treeopen] ripple_carry_adder_tb.uut.genblk1[3].
+[treeopen] ripple_carry_adder_tb.uut.genblk1[4].
+[treeopen] ripple_carry_adder_tb.uut.genblk1[5].
+[treeopen] ripple_carry_adder_tb.uut.genblk1[6].
+[treeopen] ripple_carry_adder_tb.uut.genblk1[7].
+[sst_width] 233
+[signals_width] 250
+[sst_expanded] 1
+[sst_vpaned_height] 241
+@28
+ripple_carry_adder_tb.clk
+@22
+ripple_carry_adder_tb.A[7:0]
+ripple_carry_adder_tb.B[7:0]
+ripple_carry_adder_tb.result[7:0]
+@28
+ripple_carry_adder_tb.carryout
+ripple_carry_adder_tb.uut.genblk1[0].fa.c_out
+ripple_carry_adder_tb.uut.genblk1[1].fa.c_out
+ripple_carry_adder_tb.uut.genblk1[2].fa.c_out
+ripple_carry_adder_tb.uut.genblk1[3].fa.c_out
+ripple_carry_adder_tb.uut.genblk1[4].fa.c_out
+ripple_carry_adder_tb.uut.genblk1[5].fa.c_out
+ripple_carry_adder_tb.uut.genblk1[6].fa.c_out
+@29
+ripple_carry_adder_tb.uut.genblk1[7].fa.c_out
+[pattern_trace] 1
+[pattern_trace] 0
